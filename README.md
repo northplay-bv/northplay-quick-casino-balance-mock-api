@@ -4,6 +4,8 @@ Fork into [codesandbox.io](https://codesandbox.io) for a quick casino mock API.
 
 ## Get Balance
 Send simple GET request with the username (specified in index.js) in query params:
+
+
 `https://{{HOSTNAME}}/balance?username=betboy`
 
 
@@ -19,6 +21,7 @@ Returns:
 
 ## Change Balance
 Send post request like:
+
 
 `curl -H "Content-Type: application/json" -X POST -d '{"username":"betboy","balance":500}' https://4989eq-8080.csb.app/balance`
 
